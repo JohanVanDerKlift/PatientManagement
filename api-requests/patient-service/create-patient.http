@@ -1,0 +1,13 @@
+### POST request to create a patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Johan van der Klift",
+  "email": "info@johanvanderklift.nl",
+  "address": "Pastoriedijk 386-9, 3195 HN Pernis",
+  "dateOfBirth": "1981-05-23",
+  "registeredDate": "2025-08-19"
+}
+
+###

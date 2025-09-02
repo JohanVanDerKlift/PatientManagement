@@ -1,0 +1,12 @@
+### PUT request to update a patient
+PUT http://localhost:4000/patients/2feae74f-34d1-46ba-bed2-dbcfccb646cb
+Content-Type: application/json
+
+{
+  "name": "Johan van der Klift test",
+  "email": "test@johanvanderklift.nl",
+  "address": "Pastoriedijk 386-9, 3195 HN Pernis test",
+  "dateOfBirth": "1981-05-24",
+  "registeredDate": "2025-08-19"
+}
+###
